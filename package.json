@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.3",
+    "@heroicons/react": "^2.0.12",
     "@next/font": "^13.0.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.7",
     "next": "13.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"

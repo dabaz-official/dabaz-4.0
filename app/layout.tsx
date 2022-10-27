@@ -9,7 +9,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="bg-[url('/images/light-bg-2.jpg')] bg-cover dark:bg-[url('/images/dark-bg.jpg')]">
+    <html lang="en" className="bg-[url('/images/light-bg.jpg')] bg-cover dark:bg-[url('/images/dark-bg.jpg')]">
       <head>
         <title>DabAZ</title>
         <link rel="icon" href="/logos/primary-logo.svg" />

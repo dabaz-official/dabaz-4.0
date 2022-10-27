@@ -65,13 +65,13 @@ const navigations = [
 export default function Footer() {
   return (
     <footer>
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
+      <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
         <div className="flex justify-center space-x-6 md:order-2">
         {navigations.map((navigation) => (
             <a 
               key={navigation.name} 
               href={navigation.href} 
-              className="text-gray-400 hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-100 transition duration-200"
+              className="text-gray-500 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100 transition duration-200"
             >
               <span className="sr-only">{navigation.name}</span>
               <navigation.icon className="h-6 w-6" aria-hidden="true" />
@@ -79,7 +79,7 @@ export default function Footer() {
           ))}
         </div>
         <div className="mt-8 md:mt-0 md:order-1">
-          <p className="text-center text-base text-gray-400 dark:text-gray-600">&copy; {today.getFullYear()} DabAZ. All rights reserved.</p>
+          <p className="text-center text-base text-gray-500 dark:text-gray-300">&copy; {today.getFullYear()} DabAZ. All rights reserved.</p>
         </div>
       </div>
     </footer>

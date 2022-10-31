@@ -89,6 +89,13 @@ export default function About() {
       </div>
 
       <Footer />
+
+      <style jsx global>{`
+        html,
+        body {
+          font-family: 'Inter', sans-serif;
+        }
+      `}</style>
     </div>
   )
 }

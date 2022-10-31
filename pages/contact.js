@@ -26,6 +26,13 @@ export default function Contact() {
       </div>
 
       <Footer />
+
+      <style jsx global>{`
+        html,
+        body {
+          font-family: 'Inter', sans-serif;
+        }
+      `}</style>
     </div>
   )
 }

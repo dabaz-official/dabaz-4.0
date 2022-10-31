@@ -77,6 +77,13 @@ export default function Projects() {
       </div>
 
       <Footer />
+
+      <style jsx global>{`
+        html,
+        body {
+          font-family: 'Inter', sans-serif;
+        }
+      `}</style>
     </div>
   )
 }

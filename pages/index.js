@@ -12,7 +12,7 @@ export default function Home() {
 
       <Navbar />
 
-      <main className="mx-auto max-w-7xl px-4 sm:px-6">
+      <main className="mx-auto max-w-7xl my-12 px-4 sm:px-6">
         <div id="#about" className="text-center p-10 py-10">
           <h2 className="text-5xl py-2 text-blue-600 font-medium md:text-6xl">
             DabAZ
@@ -30,16 +30,24 @@ export default function Home() {
             </a> 
             {" "}and let&apos;s get cracking!
           </p>
-          <div className="mx-auto rounded-full w-80 h-80 relative overflow-hidden mt-8 md:h-96 md:w-96">
+          <div className="mx-auto items-center text-center justify-center rounded-full w-80 h-80 relative overflow-hidden mt-8 md:h-96 md:w-96">
             <img
               src="/images/dabaz.jpg" 
               alt="DabAZ" 
+              className="justify-center"
             />
           </div>
         </div>
       </main>
 
       <Footer />
+
+      <style jsx global>{`
+        html,
+        body {
+          font-family: 'Inter', sans-serif;
+        }
+      `}</style>
     </div>
   )
 }
